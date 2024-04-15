@@ -29,7 +29,7 @@ export default function VideoPlayer() {
   return (
     <>
       <button onClick={handleClick}>{isPlaying ? "Pause" : "Play"}</button>
-      <video ref={videoRef} width="75%">
+      <video ref={videoRef} width="50%">
         <source src="/carvideo.mp4" type="video/mp4" />
       </video>
     </>
